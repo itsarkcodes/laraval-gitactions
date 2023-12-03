@@ -9,6 +9,7 @@ echo "Artisan down ..."
 # (php artisan down) || true
 
 # Pull the latest version of the app
+echo "git pull origin dev"
 git pull origin dev
 
 # Install composer dependencies
